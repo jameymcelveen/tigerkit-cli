@@ -1,5 +1,4 @@
-# Tiger Kit
-
+# ![Tiger Kit](https://raw.githubusercontent.com/jameymcelveen/tigerkit-cli/master/assets/images/paw.png) Tiger Kit
 Simple web application framework that uses [node](https://nodejs.org)
 
 ## Installation
