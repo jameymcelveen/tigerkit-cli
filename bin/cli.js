@@ -1,9 +1,3 @@
-/**
- * Created by Jamey McElveen on 7/1/16.
- */
-
-var kit = require('../lib/tigerkit.js');
-
-var args = process.argv.slice(2);
-
-kit.compile(args);
+#!/usr/bin/env node
+'use strict';
+require('../index.js').compile(process.argv.slice(2));
