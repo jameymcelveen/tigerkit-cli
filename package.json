@@ -1,21 +1,31 @@
 {
-  "name": "tigerkit-cli",
-  "version": "1.0.0",
+  "name": "tigerkit",
+  "version": "0.1.2",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "jake": "latest"
+  "bin": {
+    "tc": "./bin/cli.js"
   },
   "scripts": {
     "td": "jake -f ./build/jakefile.js td",
     "build": "jake -f ./build/jakefile.js build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameymcelveen/tigerkit-cli.git"
+  },
+  "keywords": [
+    "Tiger Kit",
+    "tc"
+  ],
   "author": "Jamey McElveen <jamey@mcelveen.us> (http://jameymcelveen.com)",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameymcelveen/tigerkit-cli/issues"
+  },
+  "homepage": "https://github.com/jameymcelveen/tigerkit-cli#readme",
+  "devDependencies": {
+    "rollup": "^0.33.0"
+  }
 }
