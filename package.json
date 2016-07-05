@@ -1,0 +1,21 @@
+{
+  "name": "tigerkit-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jake": "latest"
+  },
+  "scripts": {
+    "td": "jake -f ./build/jakefile.js td",
+    "build": "jake -f ./build/jakefile.js build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jamey McElveen <jamey@mcelveen.us> (http://jameymcelveen.com)",
+  "license": "ISC"
+}
