@@ -1,0 +1,1 @@
+{"version":3,"file":null,"sources":[null],"sourcesContent":["Vue.component(\"clock\", Components[\"clock\"]);"],"names":[],"mappings":"AAAA,GAAG,CAAC,SAAS,CAAC,OAAO,EAAE,UAAU,CAAC,OAAO,CAAC,CAAC"}
